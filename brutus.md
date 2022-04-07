@@ -14,8 +14,6 @@ Absolutely! It is also worth noting that I had also just completed the preceding
 
 ![https://hacktoria.com/monthly-ctf/operation-brutus/](https://miro.medium.com/max/700/1*YvvahDwPoS-78-OPXSQ1uA.png)
 
-Hacktoria — Banner for Operation Brutus
-
 **Disclaimer**: I will do my best to not take you down all my rabbit holes. There were plenty. Instead, if I mention something and note that there was a rabbit hole, I may have to leave you wondering — and if you want to know what happened — just ask me and I will happily tell you the story. But for the sake of your sanity, I will try to only mention my dead ends and not try to lay more roads through them.
 
 **The Mission**
@@ -28,51 +26,52 @@ I started by accessing the [Dropbox](https://www.dropbox.com/sh/2yl7wty4m6y02qd/
 
 Then I created a CherryTree notebook in the folder root where I did a copy/paste of the questions into the notebook. This action later caused me a great delay in completing the challenge but that is a story for another time— or you can read it in the Discord channel where I wept and moaned after realizing my error. Anyway, back to the challenge.
 
-**STEP 1 — The note**
+### **STEP 1 — The note**
 
 I first started with the file with no extension, taking a chance that a text editor would read it, I opened it in Notepad++ and found the following:
 
-panderoshipping.cf您好， 这是本月狩猎和装运的快速说明。 通常的狩猎场和动物，这次可能会带一个Sheng语翻译，如果需要，请拨打 +254 41 555 555 0。 一旦您获得 200 只动物，请安排发货，并确保在网站上已为客户准备了追踪的详细信息。 您的市场联系人是 Wendy Liu，她会带上ID证件并在码头等候。 在某些时候，她可能会通过电子邮件向您发送有关货件 ID 的信息。不用担心她会说中文，这次不会使用英文。 她在当地有交通安排会将货物运往市场。 她将穿着一件蓝色雨衣和红色围巾，以供识别。
+> panderoshipping.cf
+> 
+> 您好， 这是本月狩猎和装运的快速说明。 通常的狩猎场和动物，这次可能会带一个Sheng语翻译，如果需要，请拨打 +254 41 555 555 0。 一旦您获得 200 只动物，请安排发货，并确保在网站上已为客户准备了追踪的详细信息。 您的市场联系人是 Wendy Liu，她会带上ID证件并在码头等候。 在某些时候，她可能会通过电子邮件向您发送有关货件 ID 的信息。不用担心她会说中文，这次不会使用英文。 她在当地有交通安排会将货物运往市场。 她将穿着一件蓝色雨衣和红色围巾，以供识别。
 
 Google Translate to the rescue and it produced the following:
 
-panderoshipping.cf  
-  
-  
-Hi, Here's a quick note on hunting and shipping this month. The usual hunting grounds and animals, this time may bring a Sheng language interpreter, call +254 41 555 555 0 if needed. Once you have 200 animals, schedule the shipment and make sure you have the tracking details ready for the customer on the website. Your marketing contact is Wendy Liu who will bring her ID and wait at the dock. At some point, she may email you information about the shipment ID. Don't worry she can speak Chinese, not English this time. She has local transportation arrangements to transport the goods to the market. She will be wearing a blue raincoat and red scarf for identification.
+> panderoshipping.cf
+> 
+> Hi, Here's a quick note on hunting and shipping this month. The usual hunting grounds and animals, this time may bring a Sheng language interpreter, call +254 41 555 555 0 if needed. Once you have 200 animals, schedule the shipment and make sure you have the tracking details ready for the customer on the website. Your marketing contact is Wendy Liu who will bring her ID and wait at the dock. At some point, she may email you information about the shipment ID. Don't worry she can speak Chinese, not English this time. She has local transportation arrangements to transport the goods to the market. She will be wearing a blue raincoat and red scarf for identification.
 
-**Step 2 — Dissecting the note**
+### **Step 2 — Dissecting the note**
 
 My process is to break things like this into simple statements that match how I would read it if I were trying to ask someone on the other end of a phone call to “write this down”. So the note became:
 
-Hi,   
-Here's a quick note   
-on hunting and shipping   
-this month.   
-The usual hunting grounds   
-and animals,   
-this time may bring a Sheng language interpreter,   
-call +254 41 555 555 0   
-if needed. Once you have 200 animals,   
-schedule the shipment   
-and make sure you have the tracking details ready   
-for the customer   
-on the website. Your marketing contact is Wendy Liu   
-who will bring her ID   
-and wait at the dock.   
-At some point, she may email you   
-information about the shipment ID.   
-Don't worry she can speak Chinese,   
-not English this time.   
-She has local transportation arrangements   
-to transport the goods   
-to the market.   
-She will be wearing   
-a blue raincoat   
-and red scarf   
-for identification.
+> Hi,   
+> Here's a quick note   
+> on hunting and shipping   
+> this month.   
+> The usual hunting grounds   
+> and animals,   
+> this time may bring a Sheng language interpreter,   
+> call +254 41 555 555 0   
+> if needed. Once you have 200 animals,   
+> schedule the shipment   
+> and make sure you have the tracking details ready   
+> for the customer   
+> on the website. Your marketing contact is Wendy Liu   
+> who will bring her ID   
+> and wait at the dock.   
+> At some point, she may email you   
+> information about the shipment ID.   
+> Don't worry she can speak Chinese,   
+> not English this time.   
+> She has local transportation arrangements   
+> to transport the goods   
+> to the market.   
+> She will be wearing   
+> a blue raincoat   
+> and red scarf   
+> for identification.
 
-**Step 3 — What do we know from reading the note?**
+### **Step 3 — What do we know from reading the note?**
 
 The hunting grounds and animals are most likely in a location where they speak _Sheng_. So I started by Googling ‘Sheng’ and found out that it is _**a SWAHILI/ENGLISH cant**_ spoken in _**Nairobi and Kenya**_. This creates a high probability that the hunting grounds are in one of those two places. So the answer to questions 4 and 5 could be in one of those countries and they are in Africa. (_I didn’t have to google that_)
 
@@ -80,14 +79,14 @@ Next, I did a [reverse lookup](https://www.searchyellowdirectory.com/reverse-pho
 
 Continuing through the note we find the answer to questions number 15 and 16.
 
-15\. Name of contact at the market?    
-     **WENDY LU**  
-16\. Description of contact at the market?   
-     **WEARING A BLUE RAINCOAT AND A RED SCARF**
+> 15\. Name of contact at the market?    
+>      **WENDY LU**  
+> 16\. Description of contact at the market?   
+>      **WEARING A BLUE RAINCOAT AND A RED SCARF**
 
 At this point, I make the _assumption_ that the market will be geographically in a region where they speak Chinese because there was an effort to communicate that she spoke Chinese, not English. I wish I could say that the mention of a dock gave me a clue but the word dock is used interchangeably in several areas so I stopped there and went back to the files to review the 2 folders. For what I hope are obvious reasons I started in the **hunt-and-departure** folder.
 
-**Step 4 — Hunt-and-Departure**
+### **Step 4 — Hunt-and-Departure**
 
 Here I found (8) eight image files — 5 png and 3 jpg. I would really like to tell you that I only spent a few moments here but… I really went off the rails for a bit. Later I learned that I wasn't the only one; which made me feel better. (smile)
 
@@ -95,14 +94,12 @@ Using image viewer I tabbed through the files a few times. Where I learned that 
 
 ![](https://miro.medium.com/max/700/1*vwT0Bs9_5mmVNgLQzsCPbw.png)
 
-Hacktoria — harbour top view.png
-
 After a few passes, I then decided that the clue about the handlers poor opsec may be why 5 images are png and not jpg. So [FotoForensics](https://fotoforensics.com/) here I come… I learned that some of the files were edited with GIMP — but nothing else. So I went back to looking at the images.
 
 Pivoting on the location of the phone number it was time for a little Google Earth’ing in Mombasa/Kenya (Africa that is) and after a few minutes in satellite view over Mombasa, we had a [lat/lon](https://www.google.com/maps/place/4%C2%B002'49.8%22S+39%C2%B037'16.6%22E/@-4.0471633,39.621264,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x3e5777ab2c01d35!8m2!3d-4.0471633!4d39.621264) for the dock (-4.048495622386647, 39.622739122810465).
 
-6\. Harbor location the shipment leaves from?  
-     **\-4.048495622386647, 39.622739122810465**
+> 6\. Harbor location the shipment leaves from?  
+>      **\-4.048495622386647, 39.622739122810465**
 
 ![](https://miro.medium.com/max/700/1*8nJvOwi3tQV5lyY5GAd7Qw.png)
 
@@ -116,10 +113,10 @@ I will add here that I caused myself great frustration when I tried searching fo
 
 After I made it back from Rotterdam I did a reverse image search for the “harbour entrance.png” and low and behold… I found myself staring at the source for the CTF image. In which I found that “EBS” was “KEBS” aka: Kenya Bureau of Standards. ([link](https://www.google.com/maps/@-4.0398773,39.6324405,3a,75y,182.5h,91.58t/data=!3m6!1e1!3m4!1s13UY2V5-qvLXwBwnoZrZ3A!2e0!7i13312!8i6656)) This finding solidified my response to question #6 to include my new intel.
 
-6\.  Harbor location the shipment leaves from?  
- **KILINDINI PORT**  
- **lat/lon: -4.046858290670876, 39.62130155090372**  
- **aka: PORT OF MOMBASA**
+> 6\.  Harbor location the shipment leaves from?  
+>  **KILINDINI PORT**  
+>  **lat/lon: -4.046858290670876, 39.62130155090372**  
+>  **aka: PORT OF MOMBASA**
 
 So now we know where the departure port is, what about that ship and the hunting grounds or camp? Here I decided I needed to find the answers to questions 3–5; skipping 1 and 2 (smile).
 
@@ -131,8 +128,8 @@ On to question #3. I truly believed that identifying the animal species would ha
 
 I had confirmed that the target animal was a pangolin and got the scientific name from Wikipedia.
 
-3.Scientific name of the animal and subspecies?  
- **SMUTSIA TEMMINCKII | CAPE PANGOLIN**
+> 3.Scientific name of the animal and subspecies?  
+>  **SMUTSIA TEMMINCKII | CAPE PANGOLIN**
 
 Now I needed to find the hunting grounds, so looking at the images and seeing those two dirty little eyeballs looking back at me — I went to Google. (_I will explain the green lines later, but remember them_)
 
@@ -175,9 +172,9 @@ I laughed so hard I cried. I typed the text into Google Map and there was my hun
 
 ![](https://miro.medium.com/max/700/1*_myxn44_k__4NrQo1de6cQ.png)
 
-4\. Location of the hunter camp?  
- **BAGH ALI SHAH MOSQUE (MACKINNON ROAD)**  
- **lat/lon: -3.7214301, 39.029731**
+> 4\. Location of the hunter camp?  
+>  **BAGH ALI SHAH MOSQUE (MACKINNON ROAD)**  
+>  **lat/lon: -3.7214301, 39.029731**
 
 Now where the heck are those hunting grounds. I zoomed out on Google Maps and found nothing. The dirt looked right but nothing else did. Frustrated I leaned back in the chair and thought let me try tomorrow.
 
@@ -189,14 +186,14 @@ I closed the browser and opened **Google Earth Pro** where I started a project a
 
 ![](https://miro.medium.com/max/700/1*nnP1anS32apWw8yeQjNNpg.png)
 
-5\. Location of the hunting grounds \*  
-     **KWALE COUNTY - KENYA**  
- **pond 1 lat/lon: -3.653874853470648, 38.971686073257644**  
- **pond 2 lat/lon:-3.6494475472892476, 38.984367096586624**
+> 5\. Location of the hunting grounds \*  
+>      **KWALE COUNTY - KENYA**  
+>  **pond 1 lat/lon: -3.653874853470648, 38.971686073257644**  
+>  **pond 2 lat/lon:-3.6494475472892476, 38.984367096586624**
 
 That ended the hunt-and-departure phase. Went back to the files and opened up the folder destination-and-market.
 
-**Step 5 — Destination-and-Market (and that damn archive file)**
+### **Step 5 — Destination-and-Market (and that damn archive file)**
 
 In the destination-and-market folder, we find (7) seven files — 6 PNG and 1 7z. If you read the brief you know that Tiberian Serpent said that there was a personal archive, the previous handler had bad opsec, and that it may not be needed but there it is… all of that added up to “pfffff he has crappy opsec — this will be easy!”
 
@@ -240,10 +237,10 @@ I was immediately distracted by there being more than 6 locations listed… BUT 
 
 ![](https://miro.medium.com/max/700/1*HSTqrRtx289B8tuz2I5sEA.png)
 
-7\. Harbor location the shipment arrives in?  
-     **TIANJIN CHINA**  
- **lat/lon:  38.9848058, 117.7287291**  
- **PORT OF TIANJIN**
+> 7\. Harbor location the shipment arrives in?  
+>      **TIANJIN CHINA**  
+>  **lat/lon:  38.9848058, 117.7287291**  
+>  **PORT OF TIANJIN**
 
 “Where O’ where is this market at, O where, O where can it be…?” That was me as I used Google Earth to swipe left, right, up, and down every waterway leading from this port. It was all a little too much at the moment so I took a couple of days off.
 
@@ -253,7 +250,7 @@ After my workcation, I asked myself, “So what's left?”. Looking at “**my l
 
 This is where I will explain the mess-up that I earlier eluded to when I was creating my notebook. When I pasted all the questions into my notebook something happened and several of the questions merged into 1 long question. I don't know why, but because at this point I had not numbered the questions… (_Though I have been numbering them for you._) I thought I was close to finished. Once that was corrected and questions numbered I could then see that I had more work to do and I fell into a great sleep that lasted 20 years… Oh, wait that was someone else. Anyhoo… Where were we? Oh yea — looking for the market.
 
-**Finding the Market**
+### **Finding the Market**
 
 In finding the market I had already established that zooming around Google Earth wasn’t the answer. That is partly because there are a lot of waterways in and around Tianjin. So it was time to look deeper at the personal-photos-cheng.7z. (_later lovingly renamed to personal-photos-dead-guy-cheng.7z_)
 
@@ -295,13 +292,13 @@ At each pin, I moved North, South, and East because the rest of the pins were We
 ![](https://miro.medium.com/max/700/1*zkfEqacnVvMIbbpNUP356Q.png)
 
 8\. Location of the market \*  
- **HONGQIAO DISTRICT, TIANJIN, CHINA**  
- **Lat/Lon: 39.17597339315514,117.14426175670968**  
- **XIANYANG N RD - Between GUANGRONG AVE and ZHONGIJA W AVE**Possible buildings:  
+**HONGQIAO DISTRICT, TIANJIN, CHINA**  
+**Lat/Lon: 39.17597339315514,117.14426175670968**  
+**XIANYANG N RD - Between GUANGRONG AVE and ZHONGIJA W AVE**Possible buildings:  
      BEICHEN TOBACCO & ALCOHOL SUPERMARKET  
      HUIJIA SUPERMARKET?
 
-**The Next 5 days**
+### **The Next 5 days**
 
 Believe it or not, everything so far has only taken 10 days. For the next 5 days, I tried to find the date/time, ship, shipment ID, shipment handler name, phone, and email. I thought I needed to call the phone number in Mombasa or the one found in the market photo, I even Identified the ship in the Mombasa port photo — The BW TRITON. But something told me I was wrong.
 
@@ -310,8 +307,7 @@ So I asked for a hint which really only crashed me into a bigger wall. The hint 
 \* Do I need to look for a Wendy Lui in Mombasa or Tianjin?  
 \* Will she be easy to find?  
 \* How many Wendy Lui will there be in either place?  
-\* Do I need to look harder for the phone numbers that lead to an email or some other social media association that I need to use?  
- 
+\* Do I need to look harder for the phone numbers that lead to an email or some other social media association that I need to use?  
 
 On and on I went… looking for what I was missing.
 
@@ -319,7 +315,7 @@ Now some of you rock stars may already know what I was missing, but I had no clu
 
 After submitting I went to Discord and posted what I had done. A couple of other participants pinged me on the side asking for some support. So I did what I could to help them — all while the whole thing ate away at me. I AM MISSING SOMETHING OBVIOUS!!!
 
-**Cut to the end dude!**
+### **Cut to the end dude!**
 
 On March 20th, I saw someone make a comment about the website again and I commented something to the effect that the Wayback machine (if the hint) is useless unless you know what you need to look at.
 
@@ -329,12 +325,11 @@ Then like the light from the halo of a nuclear angel, the words came through… 
 
 OMG!!! I had gotten so hyper-focused on TRANSLATING THE TEXT that I forgot about the first line…
 
-**panderoshipping.cf**  
-  
-  
-您好， 这是本月狩猎和装运的快速说明。 通常的狩猎场和动物，这次可能会带一个Sheng语翻译，如果需要，请拨打 +254 41 555 555 0。 一旦您获得 200 只动物，请安排发货，并确保在网站上已为客户准备了追踪的详细信息。 您的市场联系人是 Wendy Liu，她会带上ID证件并在码头等候。 在某些时候，她可能会通过电子邮件向您发送有关货件 ID 的信息。不用担心她会说中文，这次不会使用英文。 她在当地有交通安排会将货物运往市场。 她将穿着一件蓝色雨衣和红色围巾，以供识别。
+> **panderoshipping.cf**
+> 
+> 您好， 这是本月狩猎和装运的快速说明。 通常的狩猎场和动物，这次可能会带一个Sheng语翻译，如果需要，请拨打 +254 41 555 555 0。 一旦您获得 200 只动物，请安排发货，并确保在网站上已为客户准备了追踪的详细信息。 您的市场联系人是 Wendy Liu，她会带上ID证件并在码头等候。 在某些时候，她可能会通过电子邮件向您发送有关货件 ID 的信息。不用担心她会说中文，这次不会使用英文。 她在当地有交通安排会将货物运往市场。 她将穿着一件蓝色雨衣和红色围巾，以供识别。
 
-**The End is Near**
+### **The End is Near**
 
 I quickly pivoted, pasted “panderoshipping.cf” into the browser address bar and there it was — the finish line. (_Or so I thought_)
 
@@ -344,7 +339,7 @@ I didn't waste any time looking at source code or doing whois searches to see if
 
 ![](https://miro.medium.com/max/528/1*BfYiDv8usN3lHUwpu4pwCQ.png)
 
-Taking the email address from the screen, I went to a disposable email site and after crafting an email and just about to click send — I heard the voice in my head, “**Are you sure this is the answer?**” and I stopped. This isn’t it — why was the Wayback Machine mentioned?
+Taking the email address from the screen, I went to a disposable email site and after crafting an email and just about to click send — I heard the voice in my head, “\*\*Are you sure this is the answer?\*\*” and I stopped. This isn’t it — why was the Wayback Machine mentioned?
 
 So I went back to Discord and I saw the comment about the page needing to be taken down because some rock stars set about hacking the box… (_Bad rock stars — no hacking in this CTF!_)
 
@@ -364,17 +359,21 @@ Then I clicked on Contact and there was Oliver… the clown I had been looking f
 
 ![](https://miro.medium.com/max/576/1*okPsawK41Dq5WwJ0RpUnqg.png)
 
-12\. Shipment handler full name?  
-     **OLIVER ZEIS (LEUNG)**  
-13\. Shipment handler personal phone number?  
-     **+825 4124 9131**  
-14\. Shipment handler personal e-mail?  
-     [**OLIVERZEIS@protonmail.com**](mailto:OLIVERZEIS@protonmail.com)
+> 12\. Shipment handler full name?  
+>      **OLIVER ZEIS (LEUNG)**  
+> 13\. Shipment handler personal phone number?  
+>      **+825 4124 9131**  
+> 14\. Shipment handler personal e-mail?  
+>      [**OLIVERZEIS@protonmail.com**](mailto:OLIVERZEIS@protonmail.com)
 
 Went back to my disposable email and rewrote my social engineering sentence and then stopped again. Flipped over to Discord and asked someone I knew who had finished if they had emailed Oliver. They replied yes and I told them my plan. They said, “but Cheng is dead” to which I replied “I am taking a chance that Oliver is as much of a knob as Cheng was.” then I clicked send.
 
-SUBJECT: 错误的追踪号码  
-梁你能把我的货物的跟踪号发给我吗，我放错地方了吗？程
+> SUBJECT: 错误的追踪号码  
+> 梁
+> 
+> 你能把我的货物的跟踪号发给我吗，我放错地方了吗？
+> 
+> 程
 
 And…
 
@@ -384,8 +383,12 @@ Nothing. So I tried again from another site and again nothing. Did I word it wro
 
 a.sockpuppet.acct@protonmail.com to the rescue and a new email was sent.
 
-SUBJECT: 错误的追踪号码  
-奧利弗我現在處於低調狀態，無法訪問我的任何系統或信息。你能把我的貨物的跟踪號發給我嗎？程
+> SUBJECT: 错误的追踪号码  
+> 奧
+> 
+> 利弗我現在處於低調狀態，無法訪問我的任何系統或信息。你能把我的貨物的跟踪號發給我嗎？
+> 
+> 程
 
 ![](https://miro.medium.com/max/498/0*zpU11H20fJq4ofsi.gif)
 
@@ -418,21 +421,21 @@ the shipping ID is CN555701D10TWITT66 
 Kenya → China   
 25.03.2022 at 15:00 local time,   
 ship Pangea   
-**Wishing you good health**   
+**Wishing you good health**  
 Oliver
 
 Well Cheng is dead — but thanks for the answers I needed:
 
 9\. Date and time of arrival?  
- **25.03.2022 at 15:00**  
+**25.03.2022 at 15:00**  
 10\. Shipment ID?  
- **CN555701D10TWITT66**  
+**CN555701D10TWITT66**  
 11\. Name of the ship?  
- **PANGEA**
+**PANGEA**
 
 With all responses posted the calm began to settle in.
 
-**I did it. I really frigging did it.**
+### **I did it. I really frigging did it.**
 
 And now you may ask, “why the celebration?”. Well after many years in what is today lovingly referred to as Cyber Security and technology… with certifications that have ranged from MCSE to CEH /CHFI, CNE, LPT, and others (_all expired so don't drool I have a disease called “prove you can do it” and then I move on to the next thing_) I had only ever completed one other CTF in my life. So for me it was a celebration:
 
@@ -440,7 +443,7 @@ And now you may ask, “why the celebration?”. Well after many years in what i
 
 And yes — I am old enough to be some of yalls grandparent, maybe even great grandparent so this is FKN AWESOME!
 
-**What did I learn?**
+### **What did I learn?**
 
 The first thing I was reminded of is that **I am always my worst enemy**. I know my weaknesses and flaws ( the same as you probably know yours) yet I still forget to ask myself to start from the beginning and ask “Have I done my own processes completely?”, or did I get in a hurry and overlook the obvious. This is why I suck at tests — I tell myself to read slowly and deliberately… because I need to — and invariably I will go too fast and incorrectly respond to something that had I read it once more I would have probably responded correctly.
 
