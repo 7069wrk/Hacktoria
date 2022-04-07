@@ -135,7 +135,7 @@ Now I needed to find the hunting grounds, so looking at the images and seeing th
 
 ![](https://miro.medium.com/max/700/1*brmmu01r9tDR4aqpLgtCBQ.png)
 
-Hacktoria — hunting grounds
+_Hacktoria — hunting grounds_
 
 In Google Maps, satellite view, I looked for red terrain. This, unfortunately, took me way out of bounds and I eventually gave up on that process. But not until I had spent a couple of hours doing the street view scroll. A special note here is that it did ultimately help me identify the campgrounds but I will explain in a few moments.
 
@@ -143,7 +143,7 @@ At this point, I started looking for the campgrounds with the mindset that no se
 
 ![](https://miro.medium.com/max/700/1*RwvW_nfpnxkpJTKCwKbKiA.png)
 
-Hacktoria — camp street view.png
+_Hacktoria — camp street view.png_
 
 So I played the game ‘Do you see what I see…?’ from that lovely Christmas tune ‘Do You Hear What I Hear’ and this is what I saw:
 
@@ -186,7 +186,7 @@ I closed the browser and opened **Google Earth Pro** where I started a project a
 
 ![](https://miro.medium.com/max/700/1*nnP1anS32apWw8yeQjNNpg.png)
 
-> 5\. Location of the hunting grounds \*  
+> 5\. Location of the hunting grounds  
 >      **KWALE COUNTY - KENYA**  
 >  **pond 1 lat/lon: -3.653874853470648, 38.971686073257644**  
 >  **pond 2 lat/lon:-3.6494475472892476, 38.984367096586624**
@@ -291,12 +291,14 @@ At each pin, I moved North, South, and East because the rest of the pins were We
 
 ![](https://miro.medium.com/max/700/1*zkfEqacnVvMIbbpNUP356Q.png)
 
-8\. Location of the market \*  
-**HONGQIAO DISTRICT, TIANJIN, CHINA**  
-**Lat/Lon: 39.17597339315514,117.14426175670968**  
-**XIANYANG N RD - Between GUANGRONG AVE and ZHONGIJA W AVE**Possible buildings:  
-     BEICHEN TOBACCO & ALCOHOL SUPERMARKET  
-     HUIJIA SUPERMARKET?
+> 8\. Location of the market \*  
+>  **HONGQIAO DISTRICT, TIANJIN, CHINA**  
+>  **Lat/Lon: 39.17597339315514,117.14426175670968**  
+>  **XIANYANG N RD - Between GUANGRONG AVE and ZHONGIJA W AVE**
+> 
+>  **Possible buildings:**  
+>      BEICHEN TOBACCO & ALCOHOL SUPERMARKET  
+>      HUIJIA SUPERMARKET?
 
 ### **The Next 5 days**
 
@@ -392,10 +394,14 @@ a.sockpuppet.acct@protonmail.com to the rescue and a new email was sent.
 
 ![](https://miro.medium.com/max/498/0*zpU11H20fJq4ofsi.gif)
 
-Still, nothing I needed 3 more answers and I knew that if I could get the tracking ID this would be over. Hmmm. Maybe “Oliver” doesn't want to translate. So i translated my message to English and resent.
+Still, nothing I needed 3 more answers and I knew that if I could get the tracking ID this would be over. Hmmm. Maybe “Oliver” doesn't want to translate. So I translated my message to English and resent.
 
-SUBJECT: misplaced tracking number  
-OliverI am lying low and cant access any of my systems or information right now. Can you send me the tracking number for my shipment?Cheng
+> SUBJECT: misplaced tracking number  
+> Oliver, 
+> 
+> I am lying low and cant access any of my systems or information right now. Can you send me the tracking number for my shipment?
+> 
+> Cheng
 
 and… still, nothing.
 
@@ -405,33 +411,33 @@ It is now March 22nd, I am sitting here getting ready to start my workday when I
 
 It took less than 5 minutes after that for me to submit all responses based on Oliver’s response:
 
-您好，  
-没问题，发货ID是  
-CN555701D10TWITT66  
-Kenya → China  
-25.03.2022 at 15:00 local time, ship Pangea  
-祝 安康  
-Oliver
+> 您好，  
+> 没问题，发货ID是  
+> CN555701D10TWITT66  
+> Kenya → China  
+> 25.03.2022 at 15:00 local time, ship Pangea  
+> 祝 安康  
+> Oliver
 
 which translated to
 
-Hello   
-No problem,   
-the shipping ID is CN555701D10TWITT66   
-Kenya → China   
-25.03.2022 at 15:00 local time,   
-ship Pangea   
-**Wishing you good health**  
-Oliver
+> Hello   
+> No problem,   
+> the shipping ID is CN555701D10TWITT66   
+> Kenya → China   
+> 25.03.2022 at 15:00 local time,   
+> ship Pangea   
+> **Wishing you good health**  
+> Oliver
 
 Well Cheng is dead — but thanks for the answers I needed:
 
-9\. Date and time of arrival?  
-**25.03.2022 at 15:00**  
-10\. Shipment ID?  
-**CN555701D10TWITT66**  
-11\. Name of the ship?  
-**PANGEA**
+> 9\. Date and time of arrival?  
+>  **25.03.2022 at 15:00**  
+> 10\. Shipment ID?  
+>  **CN555701D10TWITT66**  
+> 11\. Name of the ship?  
+>  **PANGEA**
 
 With all responses posted the calm began to settle in.
 
@@ -449,6 +455,6 @@ The first thing I was reminded of is that **I am always my worst enemy**. I know
 
 Though there is much I may have learned— this one was the best reminder. **I am not the only one** having an issue. I have a bad habit of considering everyone else so much better than myself. I burn soo much energy feeling that way and giving up. Sounds odd given that I mentioned that I never let go. So don't misinterpret “giving up” as “letting go”. If I bury my teeth into something you can bet I will eventually figure it out. Because as I lay there with my teeth sunk in I will eventually slow down enough to redo my processes and find a new pivot point. Or I will find a previous point and realize I needed to change perspective — how I am looking at it. Call it bias if you will but in the end, it boils down to a shift of some form on my behalf.
 
-**Closing**
+### **Closing**
 
 I hope you enjoyed my ride. It was plastered full of diversions, some profitable and some not. But in the end, I had a blast and will for sure do it again, and again… (You get the point)
